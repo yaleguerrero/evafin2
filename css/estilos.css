@@ -2,7 +2,6 @@
     margin: 0 auto;
     width: 900px;
 }
-
 header {
     background-color: #5b7989;
     display: flex;
@@ -12,16 +11,13 @@ header {
     color: white;
     text-shadow: 2px 2px 2px #02010a;
 }
-
 header nav {
     width: 30%;
     padding-top: 35px;
 }
-
 header h1 {
     width: 70%;
 }
-
 a {
     text-decoration: none;
 }
@@ -41,13 +37,47 @@ body {
     background-color: #02010a;
     font-family: Dancing Script
 }
+.Contenedorretratos
+{
+  background-color: #d5c75f; width: 900px,
+
+}
+.Contenedorretratossuperior
+{display: flex; flex-direction: row; width: 900px;}
+
+.Contenedorretratosinferior
+{display: flex; flex-direction: row; width: 900px;}
+
+.retrato1{margin: 20px;filter:blur(10px)}
+.retrato2{margin: 20px; filter:grayscale(100%)}
+.retrato3{margin: 20px;filter:sepia(100%)}
+.retrato4{margin: 20px; filter:grayscale(100%)}
+.retrato5{margin: 20px}
+.retrato6{margin: 20px; filter:grayscale(100%)}
+
+
+.Contenedorpaisajes
+{  background-color: #d5c75f; width: 900px, }
+
+.Contenedorpaisajessuperior
+{display: flex; flex-direction: row; width: 900px;}
+
+.Contenedorpaisajesinferior
+{display: flex; flex-direction: row; width: 900px;}
+
+.paisaje1{margin: 20px;filter:blur(10px)}
+.paisaje2{margin: 20px; filter:grayscale(100%)}
+.paisaje3{margin: 20px;filter:sepia(100%)}
+.paisaje4{margin: 20px; filter:grayscale(100%)}
+.paisaje5{margin: 20px}
+.paisaje6{margin: 20px; filter:grayscale(100%)}
 
 .Contenedor {
     display: flex;
     flex-flow: row wrap;
-    background-color: #d5c75f;
+    ;
     border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
+    border-top-right-radius: 1px; background-color: #d5c75f
 }
 
 .Contenedorfooter {
@@ -88,13 +118,13 @@ body {
 .Paisaje {
     width: 50%;
     text-align: center;
-    transition: transform
+    transition: transform; margin-top: 15px
 }
 
 .Retrato {
     width: 50%;
     text-align: center;
-    transition: transform
+    transition: transform; margin-top: 15px
 }
 
 .Paisaje img:hover {
@@ -127,6 +157,20 @@ img {
         display: flex;
         flex-direction: column;
     }
+    .Contenedorpaisajes
+    {  background-color: #d5c75f; width: 100%; height: 1800px}
+    .Contenedorpaisajessuperior
+    {display: flex; flex-direction: column; width: 100%; height: 300px}
+
+    .Contenedorpaisajesinferior
+    {display: flex; flex-direction:column; width: 100%;height: 300px}
+
+    .Contenedorretratossuperior
+    {display: flex; flex-direction: row; width: 900px;}
+
+    .Contenedorretratosinferior
+    {display: flex; flex-direction: row; width: 900px;}
+
     header nav {
         text-align: center;
         width: 100%;
