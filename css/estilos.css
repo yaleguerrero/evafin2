@@ -9,7 +9,7 @@ header {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
-    text-shadow: 2px 2px 2px #02010a;
+    text-shadow: 2px 2px 2px #02010a; animation: Mianimación 1s;
 }
 header nav {
     width: 30%;
@@ -151,26 +151,36 @@ img {
     box-shadow: 2px 2px 2px #02010a
 }
 
+
 @media (max-width: 900px) {
     .body {
         width: 100%;
         display: flex;
-        flex-direction: column;
-    }
-    .Contenedorpaisajes
-    {  background-color: #d5c75f; width: 100%; height: 1800px}
+        flex-direction: column}
+
     .Contenedorpaisajessuperior
-    {display: flex; flex-direction: column; width: 100%; height: 300px}
+    {display: flex; flex-direction: column; width:100% ; }
 
     .Contenedorpaisajesinferior
-    {display: flex; flex-direction:column; width: 100%;height: 300px}
+    {display: flex; flex-direction:column; width: 100%; }
+
+    .Contenedorpaisajessuperior img
+    {  width: 90%;  height: 50%;  }
+
+    .Contenedorpaisajesinferior img
+    {  width: 90%;  height: 50%;  }
 
     .Contenedorretratossuperior
-    {display: flex; flex-direction: row; width: 900px;}
+    {display: flex; flex-direction: column; width: 100%;}
 
     .Contenedorretratosinferior
-    {display: flex; flex-direction: row; width: 900px;}
+    {display: flex; flex-direction: column; width: 100%;}
 
+.Contenedorretratossuperior img
+{ width: 90%;  height: 50%;}
+
+.Contenedorretratosinferior img
+{ width: 90%;  height: 50%;}
     header nav {
         text-align: center;
         width: 100%;
@@ -208,3 +218,8 @@ img {
         width: 80%
     }
 }
+
+@-webkit-keyframes Mianimación
+{0%{margin-top: 150%;}
+    60%{margin-top: -5%;}
+    100%{margin-top: 0%;}}
